@@ -25,18 +25,10 @@ header{
 
 
 header nav{
-    background-color: lightcoral;
     display: flex;
     justify-content: space-between;
     width: 70%;
     margin: 0 auto;
-}
-
-header nav figure,
-header nav ul,
-header nav a{
-    border: 1px dashed black;
-
 }
 
 header nav ul{
@@ -51,7 +43,6 @@ header nav ul li{
 }
 
 #cta{
-    background-color: red;
     width: 60%;
     margin: 50px auto 0 auto;
     color: white;
@@ -73,7 +64,7 @@ header nav ul li{
 
 }
 
-.scarica-mac{
+.scarica-blue{
     background-color: #8ea1e1;
     padding: 10px;
     border-radius: 20px 20px 20px 20px ;
@@ -85,7 +76,6 @@ header nav ul li{
 
 
 .Apri{
-    background-color: black;
     padding: 10px;
     border-radius: 20px 20px 20px 20px ;
     color: white;
@@ -105,13 +95,11 @@ section{
 }
 
 section figure{
-    background-color: lightgoldenrodyellow;
     width: 90px;
     
 }
 
 section .section-text{
-    background-color: lightgreen;
     font-size: 20px;
     
 }
@@ -127,7 +115,6 @@ section .img-text figure{
 
 section .img-text .section-text{
     flex-basis: 30%;
-
 }
 
 section.discord-services:nth-child(even){
@@ -145,7 +132,8 @@ section.discord-services:last-child{
 
 footer{
     background-color: #23272a;
-    color: white;
+    color: #8ea1e1;
+    padding-top: 30px;
     
 }
 
@@ -155,7 +143,6 @@ footer ul li{
 
 footer .container{
     display: flex;
-    /* justify-content: space-between; */
 }
 
 footer .container > div{
@@ -164,14 +151,23 @@ footer .container > div{
 
 footer .container>div:first-child{
     flex-grow: 2;
+    
 }
 
 footer .footer-login{
     display: flex;
     padding-top: 20px;
     justify-content: space-between;
+    
+}
+
+
+ 
+a{
+    color: white
 }
 
 h3{
     font-size: 40px;
 }
+
