@@ -11,7 +11,7 @@ a{
 }
 
 img{
-    max-width: 60%;
+    max-width: 80%;
 }
 
 header{
@@ -22,6 +22,7 @@ header{
     background-image: cover;
 
 }
+
 
 header nav{
     background-color: lightcoral;
@@ -34,8 +35,8 @@ header nav{
 header nav figure,
 header nav ul,
 header nav a{
-    background-color: lightgoldenrodyellow;
     border: 1px dashed black;
+
 }
 
 header nav ul{
@@ -67,10 +68,21 @@ header nav ul li{
     background-color: white;
     padding: 10px;
     border-radius: 20px 20px 20px 20px ;
-    color: black;
+    color: #23272a;
     border: none;
 
 }
+
+.scarica-mac{
+    background-color: #8ea1e1;
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px ;
+    color: white;
+    border: none;
+    margin-top: 20px;
+
+}
+
 
 .Apri{
     background-color: black;
@@ -83,18 +95,19 @@ header nav ul li{
 }
 
 .container{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     border-radius: 10 10 10 10;
 }
 
 section{
-    border: 1px dashed black;
-    padding-block: 20px;
+    padding-block: 70px;
 }
 
 section figure{
     background-color: lightgoldenrodyellow;
+    width: 90px;
+    
 }
 
 section .section-text{
@@ -114,10 +127,12 @@ section .img-text figure{
 
 section .img-text .section-text{
     flex-basis: 30%;
+
 }
 
 section.discord-services:nth-child(even){
-    background-color: lightgray;
+    background-color: #f6f6f6;
+    
 }
 
 section.discord-services:nth-child(even) .img-text figure{
@@ -128,10 +143,10 @@ section.discord-services:last-child{
     text-align: center;
 }
 
-
 footer{
-    background-color: #121212;
+    background-color: #23272a;
     color: white;
+    
 }
 
 footer ul li{
